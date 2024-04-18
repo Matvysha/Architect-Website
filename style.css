@@ -455,16 +455,19 @@ html,body {
     border-radius: 50%;
     padding-top: 5px;
   }
+  .video-trigger, i {
+    font-size: 10px;
+  }
   .video-trigger:before, .video-trigger.mute:before {
     color: #a7a7a7;
     font-family: FontAwesome;
   }
   .video-trigger:before {
-    content: "\f04b";
+    content: "";
     margin-left: 3px;
   }
   .video-trigger.mute:before {
-    content: "\f026";
+    content: "";
     margin-left: -3px;
   }
   .video-trigger:hover {
